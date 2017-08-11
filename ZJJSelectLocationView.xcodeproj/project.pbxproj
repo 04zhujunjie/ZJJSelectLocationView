@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B7DBD431F3DACEA00E0F40D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B7DBD421F3DACEA00E0F40D /* main.m */; };
+		8B7DBD461F3DACEA00E0F40D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B7DBD451F3DACEA00E0F40D /* AppDelegate.m */; };
+		8B7DBD491F3DACEA00E0F40D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B7DBD481F3DACEA00E0F40D /* ViewController.m */; };
+		8B7DBD4C1F3DACEA00E0F40D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B7DBD4A1F3DACEA00E0F40D /* Main.storyboard */; };
+		8B7DBD4E1F3DACEA00E0F40D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B7DBD4D1F3DACEA00E0F40D /* Assets.xcassets */; };
+		8B7DBD511F3DACEA00E0F40D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B7DBD4F1F3DACEA00E0F40D /* LaunchScreen.storyboard */; };
+		8B7DBD5C1F3DACEA00E0F40D /* ZJJSelectLocationViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B7DBD5B1F3DACEA00E0F40D /* ZJJSelectLocationViewTests.m */; };
+		8B7DBD671F3DACEA00E0F40D /* ZJJSelectLocationViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B7DBD661F3DACEA00E0F40D /* ZJJSelectLocationViewUITests.m */; };
+		8B7DBD7D1F3DAD1D00E0F40D /* ZJJSelectLocationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B7DBD761F3DAD1D00E0F40D /* ZJJSelectLocationView.m */; };
+		8B7DBD7E1F3DAD1D00E0F40D /* ZJJUserView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B7DBD781F3DAD1D00E0F40D /* ZJJUserView.m */; };
+		8B7DBD7F1F3DAD1D00E0F40D /* ZJJAnimationTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B7DBD7A1F3DAD1D00E0F40D /* ZJJAnimationTool.m */; };
+		8B7DBD801F3DAD1D00E0F40D /* ZJJGameUserInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B7DBD7C1F3DAD1D00E0F40D /* ZJJGameUserInfoModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B7DBD581F3DACEA00E0F40D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B7DBD361F3DACEA00E0F40D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B7DBD3D1F3DACEA00E0F40D;
+			remoteInfo = ZJJSelectLocationView;
+		};
+		8B7DBD631F3DACEA00E0F40D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B7DBD361F3DACEA00E0F40D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B7DBD3D1F3DACEA00E0F40D;
+			remoteInfo = ZJJSelectLocationView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B7DBD3E1F3DACEA00E0F40D /* ZJJSelectLocationView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZJJSelectLocationView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B7DBD421F3DACEA00E0F40D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8B7DBD441F3DACEA00E0F40D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8B7DBD451F3DACEA00E0F40D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8B7DBD471F3DACEA00E0F40D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8B7DBD481F3DACEA00E0F40D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8B7DBD4B1F3DACEA00E0F40D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B7DBD4D1F3DACEA00E0F40D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B7DBD501F3DACEA00E0F40D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8B7DBD521F3DACEA00E0F40D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B7DBD571F3DACEA00E0F40D /* ZJJSelectLocationViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJJSelectLocationViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B7DBD5B1F3DACEA00E0F40D /* ZJJSelectLocationViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJJSelectLocationViewTests.m; sourceTree = "<group>"; };
+		8B7DBD5D1F3DACEA00E0F40D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B7DBD621F3DACEA00E0F40D /* ZJJSelectLocationViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJJSelectLocationViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B7DBD661F3DACEA00E0F40D /* ZJJSelectLocationViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJJSelectLocationViewUITests.m; sourceTree = "<group>"; };
+		8B7DBD681F3DACEA00E0F40D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B7DBD751F3DAD1D00E0F40D /* ZJJSelectLocationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJJSelectLocationView.h; sourceTree = "<group>"; };
+		8B7DBD761F3DAD1D00E0F40D /* ZJJSelectLocationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJJSelectLocationView.m; sourceTree = "<group>"; };
+		8B7DBD771F3DAD1D00E0F40D /* ZJJUserView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJJUserView.h; sourceTree = "<group>"; };
+		8B7DBD781F3DAD1D00E0F40D /* ZJJUserView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJJUserView.m; sourceTree = "<group>"; };
+		8B7DBD791F3DAD1D00E0F40D /* ZJJAnimationTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJJAnimationTool.h; sourceTree = "<group>"; };
+		8B7DBD7A1F3DAD1D00E0F40D /* ZJJAnimationTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJJAnimationTool.m; sourceTree = "<group>"; };
+		8B7DBD7B1F3DAD1D00E0F40D /* ZJJGameUserInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJJGameUserInfoModel.h; sourceTree = "<group>"; };
+		8B7DBD7C1F3DAD1D00E0F40D /* ZJJGameUserInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJJGameUserInfoModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B7DBD3B1F3DACEA00E0F40D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B7DBD541F3DACEA00E0F40D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B7DBD5F1F3DACEA00E0F40D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B7DBD351F3DACEA00E0F40D = {
+			isa = PBXGroup;
+			children = (
+				8B7DBD401F3DACEA00E0F40D /* ZJJSelectLocationView */,
+				8B7DBD5A1F3DACEA00E0F40D /* ZJJSelectLocationViewTests */,
+				8B7DBD651F3DACEA00E0F40D /* ZJJSelectLocationViewUITests */,
+				8B7DBD3F1F3DACEA00E0F40D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B7DBD3F1F3DACEA00E0F40D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B7DBD3E1F3DACEA00E0F40D /* ZJJSelectLocationView.app */,
+				8B7DBD571F3DACEA00E0F40D /* ZJJSelectLocationViewTests.xctest */,
+				8B7DBD621F3DACEA00E0F40D /* ZJJSelectLocationViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B7DBD401F3DACEA00E0F40D /* ZJJSelectLocationView */ = {
+			isa = PBXGroup;
+			children = (
+				8B7DBD741F3DAD1100E0F40D /* ZJJSelectLocationView */,
+				8B7DBD441F3DACEA00E0F40D /* AppDelegate.h */,
+				8B7DBD451F3DACEA00E0F40D /* AppDelegate.m */,
+				8B7DBD471F3DACEA00E0F40D /* ViewController.h */,
+				8B7DBD481F3DACEA00E0F40D /* ViewController.m */,
+				8B7DBD4A1F3DACEA00E0F40D /* Main.storyboard */,
+				8B7DBD4D1F3DACEA00E0F40D /* Assets.xcassets */,
+				8B7DBD4F1F3DACEA00E0F40D /* LaunchScreen.storyboard */,
+				8B7DBD521F3DACEA00E0F40D /* Info.plist */,
+				8B7DBD411F3DACEA00E0F40D /* Supporting Files */,
+			);
+			path = ZJJSelectLocationView;
+			sourceTree = "<group>";
+		};
+		8B7DBD411F3DACEA00E0F40D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B7DBD421F3DACEA00E0F40D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B7DBD5A1F3DACEA00E0F40D /* ZJJSelectLocationViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B7DBD5B1F3DACEA00E0F40D /* ZJJSelectLocationViewTests.m */,
+				8B7DBD5D1F3DACEA00E0F40D /* Info.plist */,
+			);
+			path = ZJJSelectLocationViewTests;
+			sourceTree = "<group>";
+		};
+		8B7DBD651F3DACEA00E0F40D /* ZJJSelectLocationViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8B7DBD661F3DACEA00E0F40D /* ZJJSelectLocationViewUITests.m */,
+				8B7DBD681F3DACEA00E0F40D /* Info.plist */,
+			);
+			path = ZJJSelectLocationViewUITests;
+			sourceTree = "<group>";
+		};
+		8B7DBD741F3DAD1100E0F40D /* ZJJSelectLocationView */ = {
+			isa = PBXGroup;
+			children = (
+				8B7DBD751F3DAD1D00E0F40D /* ZJJSelectLocationView.h */,
+				8B7DBD761F3DAD1D00E0F40D /* ZJJSelectLocationView.m */,
+				8B7DBD771F3DAD1D00E0F40D /* ZJJUserView.h */,
+				8B7DBD781F3DAD1D00E0F40D /* ZJJUserView.m */,
+				8B7DBD791F3DAD1D00E0F40D /* ZJJAnimationTool.h */,
+				8B7DBD7A1F3DAD1D00E0F40D /* ZJJAnimationTool.m */,
+				8B7DBD7B1F3DAD1D00E0F40D /* ZJJGameUserInfoModel.h */,
+				8B7DBD7C1F3DAD1D00E0F40D /* ZJJGameUserInfoModel.m */,
+			);
+			path = ZJJSelectLocationView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B7DBD3D1F3DACEA00E0F40D /* ZJJSelectLocationView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B7DBD6B1F3DACEA00E0F40D /* Build configuration list for PBXNativeTarget "ZJJSelectLocationView" */;
+			buildPhases = (
+				8B7DBD3A1F3DACEA00E0F40D /* Sources */,
+				8B7DBD3B1F3DACEA00E0F40D /* Frameworks */,
+				8B7DBD3C1F3DACEA00E0F40D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZJJSelectLocationView;
+			productName = ZJJSelectLocationView;
+			productReference = 8B7DBD3E1F3DACEA00E0F40D /* ZJJSelectLocationView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B7DBD561F3DACEA00E0F40D /* ZJJSelectLocationViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B7DBD6E1F3DACEA00E0F40D /* Build configuration list for PBXNativeTarget "ZJJSelectLocationViewTests" */;
+			buildPhases = (
+				8B7DBD531F3DACEA00E0F40D /* Sources */,
+				8B7DBD541F3DACEA00E0F40D /* Frameworks */,
+				8B7DBD551F3DACEA00E0F40D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B7DBD591F3DACEA00E0F40D /* PBXTargetDependency */,
+			);
+			name = ZJJSelectLocationViewTests;
+			productName = ZJJSelectLocationViewTests;
+			productReference = 8B7DBD571F3DACEA00E0F40D /* ZJJSelectLocationViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8B7DBD611F3DACEA00E0F40D /* ZJJSelectLocationViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B7DBD711F3DACEA00E0F40D /* Build configuration list for PBXNativeTarget "ZJJSelectLocationViewUITests" */;
+			buildPhases = (
+				8B7DBD5E1F3DACEA00E0F40D /* Sources */,
+				8B7DBD5F1F3DACEA00E0F40D /* Frameworks */,
+				8B7DBD601F3DACEA00E0F40D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B7DBD641F3DACEA00E0F40D /* PBXTargetDependency */,
+			);
+			name = ZJJSelectLocationViewUITests;
+			productName = ZJJSelectLocationViewUITests;
+			productReference = 8B7DBD621F3DACEA00E0F40D /* ZJJSelectLocationViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B7DBD361F3DACEA00E0F40D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = xiaozhu;
+				TargetAttributes = {
+					8B7DBD3D1F3DACEA00E0F40D = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = JK5WRLTRG7;
+						ProvisioningStyle = Automatic;
+					};
+					8B7DBD561F3DACEA00E0F40D = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = JK5WRLTRG7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8B7DBD3D1F3DACEA00E0F40D;
+					};
+					8B7DBD611F3DACEA00E0F40D = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = JK5WRLTRG7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8B7DBD3D1F3DACEA00E0F40D;
+					};
+				};
+			};
+			buildConfigurationList = 8B7DBD391F3DACEA00E0F40D /* Build configuration list for PBXProject "ZJJSelectLocationView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B7DBD351F3DACEA00E0F40D;
+			productRefGroup = 8B7DBD3F1F3DACEA00E0F40D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B7DBD3D1F3DACEA00E0F40D /* ZJJSelectLocationView */,
+				8B7DBD561F3DACEA00E0F40D /* ZJJSelectLocationViewTests */,
+				8B7DBD611F3DACEA00E0F40D /* ZJJSelectLocationViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B7DBD3C1F3DACEA00E0F40D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B7DBD511F3DACEA00E0F40D /* LaunchScreen.storyboard in Resources */,
+				8B7DBD4E1F3DACEA00E0F40D /* Assets.xcassets in Resources */,
+				8B7DBD4C1F3DACEA00E0F40D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B7DBD551F3DACEA00E0F40D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B7DBD601F3DACEA00E0F40D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B7DBD3A1F3DACEA00E0F40D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B7DBD7D1F3DAD1D00E0F40D /* ZJJSelectLocationView.m in Sources */,
+				8B7DBD491F3DACEA00E0F40D /* ViewController.m in Sources */,
+				8B7DBD801F3DAD1D00E0F40D /* ZJJGameUserInfoModel.m in Sources */,
+				8B7DBD7E1F3DAD1D00E0F40D /* ZJJUserView.m in Sources */,
+				8B7DBD461F3DACEA00E0F40D /* AppDelegate.m in Sources */,
+				8B7DBD431F3DACEA00E0F40D /* main.m in Sources */,
+				8B7DBD7F1F3DAD1D00E0F40D /* ZJJAnimationTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B7DBD531F3DACEA00E0F40D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B7DBD5C1F3DACEA00E0F40D /* ZJJSelectLocationViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B7DBD5E1F3DACEA00E0F40D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B7DBD671F3DACEA00E0F40D /* ZJJSelectLocationViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B7DBD591F3DACEA00E0F40D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B7DBD3D1F3DACEA00E0F40D /* ZJJSelectLocationView */;
+			targetProxy = 8B7DBD581F3DACEA00E0F40D /* PBXContainerItemProxy */;
+		};
+		8B7DBD641F3DACEA00E0F40D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B7DBD3D1F3DACEA00E0F40D /* ZJJSelectLocationView */;
+			targetProxy = 8B7DBD631F3DACEA00E0F40D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8B7DBD4A1F3DACEA00E0F40D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B7DBD4B1F3DACEA00E0F40D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B7DBD4F1F3DACEA00E0F40D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B7DBD501F3DACEA00E0F40D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B7DBD691F3DACEA00E0F40D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B7DBD6A1F3DACEA00E0F40D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B7DBD6C1F3DACEA00E0F40D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JK5WRLTRG7;
+				INFOPLIST_FILE = ZJJSelectLocationView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lxz.ZJJSelectLocationView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8B7DBD6D1F3DACEA00E0F40D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JK5WRLTRG7;
+				INFOPLIST_FILE = ZJJSelectLocationView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lxz.ZJJSelectLocationView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8B7DBD6F1F3DACEA00E0F40D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JK5WRLTRG7;
+				INFOPLIST_FILE = ZJJSelectLocationViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lxz.ZJJSelectLocationViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZJJSelectLocationView.app/ZJJSelectLocationView";
+			};
+			name = Debug;
+		};
+		8B7DBD701F3DACEA00E0F40D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JK5WRLTRG7;
+				INFOPLIST_FILE = ZJJSelectLocationViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lxz.ZJJSelectLocationViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZJJSelectLocationView.app/ZJJSelectLocationView";
+			};
+			name = Release;
+		};
+		8B7DBD721F3DACEA00E0F40D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = JK5WRLTRG7;
+				INFOPLIST_FILE = ZJJSelectLocationViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lxz.ZJJSelectLocationViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZJJSelectLocationView;
+			};
+			name = Debug;
+		};
+		8B7DBD731F3DACEA00E0F40D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = JK5WRLTRG7;
+				INFOPLIST_FILE = ZJJSelectLocationViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lxz.ZJJSelectLocationViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZJJSelectLocationView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B7DBD391F3DACEA00E0F40D /* Build configuration list for PBXProject "ZJJSelectLocationView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B7DBD691F3DACEA00E0F40D /* Debug */,
+				8B7DBD6A1F3DACEA00E0F40D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B7DBD6B1F3DACEA00E0F40D /* Build configuration list for PBXNativeTarget "ZJJSelectLocationView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B7DBD6C1F3DACEA00E0F40D /* Debug */,
+				8B7DBD6D1F3DACEA00E0F40D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8B7DBD6E1F3DACEA00E0F40D /* Build configuration list for PBXNativeTarget "ZJJSelectLocationViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B7DBD6F1F3DACEA00E0F40D /* Debug */,
+				8B7DBD701F3DACEA00E0F40D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8B7DBD711F3DACEA00E0F40D /* Build configuration list for PBXNativeTarget "ZJJSelectLocationViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B7DBD721F3DACEA00E0F40D /* Debug */,
+				8B7DBD731F3DACEA00E0F40D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B7DBD361F3DACEA00E0F40D /* Project object */;
+}
