@@ -17,6 +17,7 @@
 
 //用户基础Tag
 #define kZJJUserViewTag 600
+
 @interface ZJJSelectLocationView : UIView
 
 @property (nonatomic ,weak) id <ZJJSelectLocationViewDelegate> delegate;
@@ -26,5 +27,21 @@
 @property (nonatomic ,strong)NSArray *userViewPointArray;
 //用户手动点击添加进来，移动后存放用户Tag
 @property (nonatomic ,strong)NSMutableArray *userViewTagArray;
+
+/**
+ 获取用户View
+ 
+ @param sysID 用户ID
+ @return 用户View
+ */
+- (ZJJUserView *)findUserViewWithSysID:(NSInteger)sysID;
+/**
+ *  获取在桌面的绝对位置
+ *
+ *  @param tag 用户的Tag
+ *
+ *  @return 桌面的绝对位置
+ */
+- (NSInteger)getUserViewAbsolutePlaceWithTag:(NSInteger)tag;
 
 @end

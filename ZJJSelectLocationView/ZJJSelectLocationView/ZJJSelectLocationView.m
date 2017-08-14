@@ -70,7 +70,49 @@
     }
 }
 
-#pragma mark ==========中心位置＝＝＝＝＝＝＝＝＝
+/**
+ 获取用户View
+ 
+ @param sysID 用户ID
+ @return 用户View
+ */
+- (ZJJUserView *)findUserViewWithSysID:(NSInteger)sysID{
+    
+    for (int i = 0; i < self.userNum; i++) {
+        
+        ZJJUserView *userView = [self viewWithTag:kZJJUserViewTag+i];
+        if (userView.model.sysID == sysID) {
+            
+            return userView;
+        }
+    }
+    return nil;
+}
+
+#pragma mark ===================获取移动后用户视图的绝对位置=================
+/**
+ *  获取在桌面的绝对位置
+ *
+ *  @param tag 用户的Tag
+ *
+ *  @return 桌面的绝对位置
+ */
+- (NSInteger)getUserViewAbsolutePlaceWithTag:(NSInteger)tag{
+    
+    
+    for (int i = 0; i < self.userViewTagArray.count; i ++) {
+        
+        NSNumber *num  = self.userViewTagArray[i];
+        if ([num integerValue] == tag) {
+            
+            return i;
+        }
+        
+    }
+    return 0;
+}
+
+#pragma mark ==========设置用户位置的中心坐标＝＝＝＝＝＝＝＝＝
 - (void)createHeadImagePoint:(CGRect)rect imageSize:(CGSize)size{
     
     CGFloat x =rect.origin.x+size.width/2.0 ;

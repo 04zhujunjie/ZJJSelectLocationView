@@ -65,7 +65,7 @@ static NSInteger const kZJJMySysID = 10000;
     
     if (userView.model.sysID) {
         
-        UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"用户信息" message: [NSString stringWithFormat:@"\n用户名：%@\n初始位置：%ld\n 用户ID：%ld\n 移动后绝对位置：%ld",userView.model.name,userView.model.position,userView.model.sysID,[self getUserViewAbsolutePlaceWithTag:userView.tag]] preferredStyle:UIAlertControllerStyleAlert];
+        UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"用户信息" message: [NSString stringWithFormat:@"\n用户名：%@\n初始位置：%ld\n 用户ID：%ld\n 移动后绝对位置：%ld",userView.model.name,userView.model.position,userView.model.sysID,[self.slView getUserViewAbsolutePlaceWithTag:userView.tag]] preferredStyle:UIAlertControllerStyleAlert];
         UIAlertAction *act = [UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
             
         }];
@@ -75,7 +75,7 @@ static NSInteger const kZJJMySysID = 10000;
     }
     
     //用来判断我是否已经坐下
-    ZJJUserView *myUserView = [self findUserViewWithSysID:kZJJMySysID];
+    ZJJUserView *myUserView = [self.slView findUserViewWithSysID:kZJJMySysID];
     
     if (myUserView || !userView.model.sysID) {
         myUserView.model = nil;
@@ -91,47 +91,7 @@ static NSInteger const kZJJMySysID = 10000;
 }
 
 
-/**
- 获取用户View
 
- @param sysID 用户ID
- @return 用户View
- */
-- (ZJJUserView *)findUserViewWithSysID:(NSInteger)sysID{
-    
-    for (int i = 0; i < self.slView.userNum; i++) {
-        
-        ZJJUserView *userView = [self.view viewWithTag:kZJJUserViewTag+i];
-        if (userView.model.sysID == sysID) {
-            
-            return userView;
-        }
-    }
-    return nil;
-}
-
-#pragma mark ===================获取移动后用户视图的绝对位置=================
-/**
- *  获取在桌面的绝对位置
- *
- *  @param tag 用户的Tag
- *
- *  @return 桌面的绝对位置
- */
-- (NSInteger)getUserViewAbsolutePlaceWithTag:(NSInteger)tag{
-    
-    
-    for (int i = 0; i < self.slView.userViewTagArray.count; i ++) {
-        
-        NSNumber *num  = self.slView.userViewTagArray[i];
-        if ([num integerValue] == tag) {
-            
-            return i;
-        }
-        
-    }
-    return 0;
-}
 
 
 - (void)didReceiveMemoryWarning {
